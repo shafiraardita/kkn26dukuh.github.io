@@ -15,37 +15,36 @@ if (hamburger && navLinks) {
  ******************************************/
 const albumData = {
     pertemuan1: [
-        { src: "images/pertemuan.jpg" },
-        { src: "images/pertemuan2.jpg"},
-        { src: "images/pertemuan3.jpg"},
+        { src: "images/pertemuan.JPG" },
+        { src: "images/pertemuan2.JPG"},
+        { src: "images/pertemuan3.JPG"},
         { src: "images/pelepasan.jpg"},
         { src: "images/pelepasan2.jpg" }
     ],
     KITA: [
         { src: "images/kita.jpg"},
-        { src: "images/kita1.jpg" },
-        { src: "images/kita2.jpg"},
-        { src: "images/kita3.jpg" }
+        { src: "images/kita1.JPG" },
+        { src: "images/kita2.JPG"},
+        { src: "images/kita3.JPG" }
     ],
     GotongRoyong: [
-        { src: "images/gotongrotong.jpg", caption: "Kerja Bakti Bersama Warga" },
-        { src: "images/gotongroyong2.jpg", caption: "Membersihkan Jalan" }
+        { src: "images/gotongrotong.JPG", caption: "Kerja Bakti Bersama Warga" },
+        { src: "images/gotongroyong2.JPG", caption: "Membersihkan Jalan" }
     ],
     SDNDUKUH: [
         { src: "images/sdn.jpg", caption: "Mengajar di SDN Dukuh" },
-        { src: "images/sdndukuh1.jpg", caption: "Foto Bersama Murid" }
+        { src: "images/sdndukuh1.JPG", caption: "Foto Bersama Murid" }
     ],
     RandomKita: [
-        { src: "images/random1.jpg", caption: "Momen Santai" },
-        { src: "images/random2.jpg", caption: "Jalan-jalan Sore" },
-        { src: "images/random3.jpg", caption: "Selfie Bersama" }
+        { src: "images/random1.JPG", caption: "Momen Santai" },
+        { src: "images/random2.JPG", caption: "Jalan-jalan Sore" }
     ],
     FotoDivisi: [
-        { src: "images/bph.jpg", caption: "Divisi Pendidikan" },
-        { src: "images/acara.jpg", caption: "Divisi Sosial" },
-        { src: "images/humas.jpg", caption: "Divisi Keagamaan" },
-        { src: "images/pdd.jpg", caption: "Divisi Pendidikan" },
-        { src: "images/konsumsi.jpg", caption: "Divisi Sosial" }
+        { src: "images/bph.jpg", caption: "Badan Pengurus Harian" },
+        { src: "images/acara.jpg", caption: "Divisi Acara" },
+        { src: "images/humas.jpg", caption: "Divisi Hubungan Masyarakat" },
+        { src: "images/pdd.jpg", caption: "Divisi Publikasi Dokumentasi dan Desain" },
+        { src: "images/konsumsi.jpg", caption: "Divisi Konsumsi" }
     ]
 };
 
