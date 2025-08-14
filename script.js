@@ -33,24 +33,24 @@ document.addEventListener('DOMContentLoaded', () => {
       { src: "images/kita3.jpg" }
     ],
     GotongRoyong: [
-      { src: "images/gotongrotong.jpg", caption: "Kerja Bakti Bersama Warga" },
-      { src: "images/gotongroyong2.jpg", caption: "Membersihkan Jalan" }
+      { src: "images/gotongrotong.jpg"},
+      { src: "images/gotongroyong2.jpg"}
     ],
     SDNDUKUH: [
-      { src: "images/sdn.jpg", caption: "Mengajar di SDN Dukuh" },
-      { src: "images/sdndukuh1.jpg", caption: "Foto Bersama Murid" }
+      { src: "images/sdn.jpg"},
+      { src: "images/sdndukuh1.jpg"}
     ],
     RandomKita: [
-      { src: "images/random1.jpg", caption: "Momen Santai" },
-      { src: "images/random2.jpg", caption: "Jalan-jalan Sore" },
-      { src: "images/random3.jpg", caption: "Selfie Bersama" }
+      { src: "images/random1.jpg"},
+      { src: "images/random2.jpg"},
+      { src: "images/random3.jpg"}
     ],
     FotoDivisi: [
-      { src: "images/bph.jpg", caption: "Divisi Pendidikan" },
-      { src: "images/acara.jpg", caption: "Divisi Sosial" },
-      { src: "images/humas.jpg", caption: "Divisi Keagamaan" },
-      { src: "images/pdd.jpg", caption: "Divisi Pendidikan" },
-      { src: "images/konsumsi.jpg", caption: "Divisi Sosial" }
+      { src: "images/bph.jpg", caption: "Badan Pengurus Harian" },
+      { src: "images/acara.jpg", caption: "Divisi Acara" },
+      { src: "images/humas.jpg", caption: "Divisi Hubungan Masyarakat" },
+      { src: "images/pdd.jpg", caption: "Divisi Publikasi dokumentasi dan desain" },
+      { src: "images/konsumsi.jpg", caption: "Divisi Konsumsi" }
     ]
   };
 
