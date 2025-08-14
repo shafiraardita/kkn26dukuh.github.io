@@ -30,7 +30,10 @@ document.addEventListener('DOMContentLoaded', () => {
       { src: "images/kita.jpg" },
       { src: "images/kita1.jpg" },
       { src: "images/kita2.jpg" },
-      { src: "images/kita3.jpg" }
+      { src: "images/kita3.jpg" },
+      { src: "images/inovasi.jpg" },
+      { src: "images/ovop1.jpg" },
+      { src: "images/ovop2.jpg" }
     ],
     GotongRoyong: [
       { src: "images/gotongrotong.jpg"},
@@ -38,7 +41,8 @@ document.addEventListener('DOMContentLoaded', () => {
     ],
     SDNDUKUH: [
       { src: "images/sdn.jpg"},
-      { src: "images/sdndukuh1.jpg"}
+      { src: "images/sdndukuh1.jpg"},
+      { src: "images/sd3.jpg" },
     ],
     RandomKita: [
       { src: "images/random1.jpg"},
@@ -51,6 +55,12 @@ document.addEventListener('DOMContentLoaded', () => {
       { src: "images/humas.jpg", caption: "Divisi Hubungan Masyarakat" },
       { src: "images/pdd.jpg", caption: "Divisi Publikasi dokumentasi dan desain" },
       { src: "images/konsumsi.jpg", caption: "Divisi Konsumsi" }
+    ],
+    ProgramKerja: [
+      { src: "images/inovasi.jpg", caption: "Inovasi Eco Enzyme" },
+      { src: "images/ovop1.jpg"},
+      { src: "images/ovop2.jpg"},
+      { src: "images/MVI_1735.MP4"}
     ]
   };
 
