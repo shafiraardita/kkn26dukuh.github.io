@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KKN 26 Desa Dukuh - UIKA BOGOR</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">KKN 26 - UIKA BOGOR</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Album Kita</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">☰</div>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Selamat Datang di Jejak Kenangan KKN 26 Desa Dukuh</h1>
+            <p>Mengabadikan cerita, tawa, dan momen tak terlupakan selama pengabdian.</p>
+            <a href="#services" class="cta-btn">Lihat Album Kenangan</a>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+        <h2>Tentang KKN</h2>
+        <p>Kami adalah sekelompok mahasiswa yang bersama-sama menjalankan Kuliah Kerja Nyata di Desa Dukuh, Cibungbulang.
+        Di bawah terik matahari dan sejuknya angin desa, kami berbagi cerita, tawa, dan pengalaman bersama masyarakat.
+        Selama KKN, kami belajar arti kebersamaan, mengabdi dengan sepenuh hati, dan membangun kenangan yang akan selalu tersimpan di hati.
+        Meski waktu kebersamaan ini singkat, jejak langkah dan rasa kekeluargaan yang tumbuh akan terus hidup dalam ingatan kami selamanya❤️.</p>
+        </section>
+
+    <!-- Album Kita -->
+    <section id="services" class="section">
+    <h2>Album Kita</h2>
+    <div class="services-grid">
+        <div class="service-card" data-album="pertemuan1">
+            <h3>Pertemuan Pertama</h3>
+            <img src="images/pertemuan.jpg" alt="Pertemuan Pertama">
+            <p>Potret awal kebersamaan kami KKN26, saat semua cerita baru dimulai.</p>
+        </div>
+        <div class="service-card" data-album="KITA">
+            <h3>KITA</h3>
+            <img src="images/pelepasan.jpg" alt="KITA">
+            <p>Kumpulan momen penuh tawa, kerja sama, dan kekeluargaan selama KKN.</p>
+        </div>
+        <div class="service-card" data-album="GotongRoyong">
+            <h3>Gotong Royong</h3>
+            <img src="images/gotongrotong.JPG" alt="Gotong Royong">
+            <p>Kenangan kebersamaan saat gotong royong bersama warga dukuh.</p>
+        </div>
+        <div class="service-card" data-album="SDNDUKUH">
+            <h3>SDN DUKUH</h3>
+            <img src="images/sdndukuh1.JPG" alt="SDN Dukuh">
+            <p>Keakraban dan keceriaan bersama anak-anak SDN Dukuh.</p>
+        </div>
+        <div class="service-card" data-album="RandomKita">
+            <h3>Random Kita</h3>
+            <img src="images/random1.JPG" alt="Random Kita">
+            <p>Potongan cerita acak yang menyimpan canda, tawa, dan rasa haru.</p>
+        </div>
+        <div class="service-card" data-album="FotoDivisi">
+            <h3>Foto Perdivisi</h3>
+            <img src="images/kita3.jpg" alt="Foto Perdivisi">
+            <p>Potret setiap divisi yang menjadi bagian penting perjalanan KKN 26.</p>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <div class="social-links">
+        <a href="https://www.instagram.com/kkn_dukuh26?igsh=NnhnenpxNHpuYWhs" target="_blank" class="social-link">
+            <img src="https://img.icons8.com/ios-filled/50/000000/instagram-new.png" alt="Instagram" />
+            <span>@kkn_dukuh26</span>
+        </a>
+        <a href="https://www.tiktok.com/@kknuika260?_t=ZS-8ysMG2u9RuW&_r=1" target="_blank" class="social-link">
+            <img src="https://img.icons8.com/ios-filled/50/000000/tiktok--v1.png" alt="TikTok" />
+            <span>@kknuika26</span>
+        </a>
+    </div>
+</section>
+
+    <!-- Modal Galeri Album -->
+    <div id="albumModal" class="modal-preview">
+        <span class="close-preview album-close">&times;</span>
+        <div class="swiper albumSwiper">
+            <div class="swiper-wrapper" id="albumContent">
+                <!-- Diisi otomatis oleh JS:
+                <div class="swiper-slide">
+                    <div class="swiper-zoom-container">
+                        <img src="..." alt="...">
+                    </div>
+                    <p class="caption">Caption</p>
+                </div>
+                -->
+            </div>
+            <!-- Navigasi -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <!-- Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
