@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded', () => {
             clickable: true,
           },
           zoom: {
-            maxRatio: 0.8 // bisa zoom hingga 3x
+            maxRatio: 2 // bisa zoom hingga 3x
           },
           loop: true,
           centeredSlides: true
