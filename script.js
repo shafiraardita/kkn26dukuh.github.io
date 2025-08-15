@@ -108,14 +108,32 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!albumData[albumKey]) return;
 
         // Render slide
-        albumContent.innerHTML = albumData[albumKey].map(photo => `
-          <div class="swiper-slide">
-            <div class="swiper-zoom-container">
-              <img src="${photo.src}" alt="${photo.caption ? photo.caption : 'Foto Kegiatan'}" />
-            </div>
-            ${photo.caption ? `<p style="color:white; text-align:center; margin-top:5px;">${photo.caption}</p>` : ""}
-          </div>
-        `).join("");
+        // Render slide (foto atau video)
+albumContent.innerHTML = albumData[albumKey].map(item => {
+  const isVideo = item.src.match(/\.(mp4|webm|ogg)$/i); // cek ekstensi video
+  if (isVideo) {
+    return `
+      <div class="swiper-slide">
+        <div class="swiper-zoom-container">
+          <video controls style="max-width:100%; max-height:80vh;">
+            <source src="${item.src}" type="video/mp4">
+            Browser anda tidak mendukung video.
+          </video>
+        </div>
+        ${item.caption ? `<p style="color:white; text-align:center; margin-top:5px;">${item.caption}</p>` : ""}
+      </div>
+    `;
+  } else {
+    return `
+      <div class="swiper-slide">
+        <div class="swiper-zoom-container">
+          <img src="${item.src}" alt="${item.caption ? item.caption : 'Foto Kegiatan'}" />
+        </div>
+        ${item.caption ? `<p style="color:white; text-align:center; margin-top:5px;">${item.caption}</p>` : ""}
+      </div>
+    `;
+  }
+}).join("");
 
         // Tambah fallback kapitalisasi file (untuk server case-sensitive)
         addCaseFallback(albumContent);
